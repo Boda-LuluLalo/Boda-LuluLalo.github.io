@@ -7,7 +7,7 @@ const TOTAL = 100
 const petalArray = []
 
 const petalImg = new Image()
-petalImg.src = 'https://raw.githubusercontent.com/Boda-LuluLalo/boda-lululalo.github.io/refs/heads/develop/images/petal2.png'
+petalImg.src = 'https://raw.githubusercontent.com/Boda-LuluLalo/boda-lululalo.github.io/refs/heads/develop/images/petal3.png'
 petalImg.addEventListener('load', () => {
   for (let i = 0; i < TOTAL; i++) {
     petalArray.push(new Petal())
@@ -73,4 +73,5 @@ class Petal {
     this.draw()
   }
 }
+
 
